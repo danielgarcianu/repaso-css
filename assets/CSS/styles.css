@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color:#e48b8b;
+    height: 50px;
+
+}
+.menu ul{
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.elemento{
+    display: inline;
+}
+
+.menu .elemento{
+    display: inline;
+    margin:  20px 0px;
+    padding: 20px 10px;
+}
+.menu .elemento:hover{
+    background-color: rgb(79, 100, 138);
+    padding: 10px 0px;
+}
+.elemento a{
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    line-height: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    transition: color 2s;
+}
+.elemento a:hover{
+    color: rgb(255, 1, 1);
+    /*font-size: 30px;
+} *//*cambiar el tama;o de fuente*/
+
+/*width 100% para que se ajuste a toda la pagina*/
+/*margin: superior derecha inferior izquierda si utilizamos los 4 margenes si solo uso dos valores el primero lo utliza para arriba y abajo y el segundo izquierda derecha*/
+/* line-height se utiliza para centrar solo el texto*/
+/*user agent stylesheet es el estilo que tiene por defecto el navegador*/
+/*hoveer pseudoelemento  cambia cuando pasas el mouse sobre un elemento*/
+/*cambiar el tamaño de una imagen con hover transform: scale(2);
+*/
