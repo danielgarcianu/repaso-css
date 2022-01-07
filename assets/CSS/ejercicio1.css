@@ -1,0 +1,47 @@
+body{
+    background-color: #D3D3D3;
+}
+.titulo-principal{
+    text-align: center;
+    letter-spacing: 10px;
+}
+.main-content{
+    /*medidas relativas % relativo a el espacio que hay en pantalla */
+    width: 800px;
+    margin: 0 auto;
+}
+/* .main-content article{
+    width: 80%;
+    margin: 0 auto;
+} */
+.main-content .encabezado{
+    background-color:gray;
+    color:white;
+    padding: 10px 5px;
+}
+.main-content .contenido{
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.main-content .contenido-imagen{
+    float: left;
+}
+.main-content .contenido-texto{
+    margin-left: 150px;
+}
+.main-content .contenido-texto p{
+    text-indent: 20px;
+    text-align: justify;
+}
+ .contenido-texto p .red{
+    color: red;
+}
+/*text-align: justify; para justificar el texto*/
+
+/*float: none; burra el float de arriba
+  clear: both; both derecha e izquierda
+  evita que se suba el texto imagen de abajo 
+*/
+/*letter-spacing: para separar las letras;*/
